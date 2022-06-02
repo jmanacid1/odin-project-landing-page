@@ -7,3 +7,36 @@ body{
 .section-1{
     background-color: aliceblue;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    list-style: none;
+}
+.header-links{
+    display: flex;
+    list-style: none;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.signup-title{
+    font-size: large;
+    font-weight: bold;
+}
+.signup-text{
+    font-size: medium;
+    font-weight: 500;
+}
+.img-placeholder{
+    background-color: aqua;
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
