@@ -11,6 +11,8 @@ body{
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0px 12.5%;
 }
 .header-logo{
     list-style: none;
@@ -19,6 +21,8 @@ body{
 .header-links{
     display: flex;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 .section-1-container{
     display: flex;
@@ -89,6 +93,7 @@ a{
     align-items: center;
     padding: 0px;
     text-align: center;
+    width: 150px;
 }
 .box-image{
     height: 150px;
@@ -105,18 +110,57 @@ a{
 .quote-container{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 100px;
+    background-color: #E5E7EB;
 }
 .quote{
-    background-color: aqua;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    margin: 0px;
 }
-.attribution-container{
-    display: flex;
-    background-color: bisque;
+
+.attribution{
+    text-align: right;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: bold;
     font-style: italic;
+    margin: 0px;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.call-to-action{
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+.call-to-action-title{
+    font-size: 36px;
+    margin: 0px;
+}
+.call-to-action-subtext{
+    margin: 10px 0px;
+}
+.action-button{
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: white;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
