@@ -19,6 +19,7 @@ ul{
 .section-1{
     display: flex;
     justify-content: space-around;
+    padding: 40px 20px;
 }
 .section-1-left,
 .section-1-img-placeholder
@@ -29,4 +30,28 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.box-column{
+    width: 150px;
+    height: auto;
+}
+.empty-box{
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 4px;
+    height: 150px;
+    width: 150px;
 }
