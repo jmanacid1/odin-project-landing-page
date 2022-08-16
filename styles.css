@@ -15,5 +15,18 @@ ul{
 .nav-link-container{
     display: flex;
     gap: 10px;
-
+}
+.section-1{
+    display: flex;
+    justify-content: space-around;
+}
+.section-1-left,
+.section-1-img-placeholder
+{
+    width: 40%;
+}
+.section-1-img-placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
